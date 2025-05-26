@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import gradient from "../public/gradient.png";
 import "./App.css";
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       {/* Gradient image */}
       <img
         className="absolute top-0 right-0 opacity-60 -z-1"
-        src="./gradient.png"
+        src={gradient}
         alt="Gradient-img"
       />
       {/* Blur Effect */}
